@@ -22,3 +22,5 @@
 > [Javascript-Parser](http://hackage.haskell.org/package/WebBits-2.2/docs/src/BrownPLT-JavaScript-Parser.html)
 #
 > [Hackage-Parsec](https://hackage.haskell.org/package/parsec)
+#
+> [Lua - Reference Manual](http://www.lua.org/manual/5.4/manual.html#9)
