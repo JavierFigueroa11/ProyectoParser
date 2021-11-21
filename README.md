@@ -24,3 +24,8 @@
 > [Hackage-Parsec](https://hackage.haskell.org/package/parsec)
 #
 > [Lua - Reference Manual](http://www.lua.org/manual/5.4/manual.html#9)
+
+## Ejecutar
+> ghci -o main Main.hs
+#
+> runhaskell Main.hs
