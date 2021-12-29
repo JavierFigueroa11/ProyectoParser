@@ -7,4 +7,4 @@ function average(...)
     print("Total entrante ",#arg," Numero/s")
     return result/#arg
 end
-print("El promedio es",average(10,5,3,4,5,6)))
+print("El promedio es",average(10,5,3,4,5,6))

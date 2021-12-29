@@ -13,6 +13,7 @@ data Decl = AssignDecl [Variable] [Expresion] | LlamadaFuncionDecl LlamadaFuncio
             LocalFnDecl String CuerpoFunc | LocalVariableDecl [String] [Expresion]
             deriving (Show)
 
+
 data DevDecl = DevDecl [Expresion] deriving (Show)
 
 data Variable = NameVariable String [TablaBusqueda] | 

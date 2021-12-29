@@ -228,9 +228,7 @@ parseExpresion = buildExpressionParser opTable parseExpresionTerm where
      [Infix  (reserved "or" >> return (BinExpresion OrOperadorBinario)) AssocLeft]
     ]
 
-  exp = nilExpresion <|> falseExpresion <|> trueExpresion <|> strExpresion <|> varArgExpresion <|>
-        fnDefExpresion <|> (try fnCallExpresion) <|> nameExpresion <|> 
-        tblCtorExpresion <|> numExpresion
+  exp = nilExpresion <|> falseExpresion <|> trueExpresion <|> strExpresion <|> varArgExpresion <|>fnDefExpresion <|> (try fnCallExpresion) <|> nameExpresion <|> tblCtorExpresion <|> numExpresion
 
   nilExpresion = reserved "nil" >> return NilExpresion
   falseExpresion = reserved "false" >> return FalseExpresion
